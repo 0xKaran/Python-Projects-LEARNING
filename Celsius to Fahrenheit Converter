@@ -1,0 +1,7 @@
+cels = int(input("Enter celsius: "))
+
+def cel_to_fahr(celsius):    
+    fahrenheit = celsius * 9/5 + 32    
+    print("Fahrenheit: {}".format(fahrenheit))
+
+cel_to_fahr(cels)
